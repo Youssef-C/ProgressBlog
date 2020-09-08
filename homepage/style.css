@@ -12,14 +12,51 @@ p
 {
     color: rgb(1, 22, 39);
 }
-
-.entry
+#flexcontainer
 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entryDiv
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: wrap;
+    width: 600px;
     border-left-style: solid;
     border-width: 8px;
     border-color: rgb(1, 22, 39);
     background-color:lightgrey;
     box-shadow: 10px 10px 5px grey;
+}
+
+#entryDiv00:hover  #entryTitle00
+{
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+#entryDiv01:hover  #entryTitle01
+{
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+#entryDiv02:hover  #entryTitle02
+{
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.entryTitle
+{
+    padding: 5px;
+}
+
+.entry
+{
+    padding: 8px;
 }
 
 #example
@@ -46,9 +83,10 @@ p
 #gambino
 {
     border-radius: 20px;
-    height: 600px;
+    height: 320px;
     margin-left: 5px;
     margin-bottom: 5px;
+    padding: 10px;
 }
 /*Comments in CSS are writen like this one*/ 
 
