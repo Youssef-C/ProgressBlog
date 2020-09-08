@@ -1,0 +1,50 @@
+h1 
+{
+    color: rgb(1, 22, 39);
+}
+
+p
+{
+    color: rgb (1, 22, 39);
+}
+
+.entry
+{
+    border-left-style: solid;
+    border-width: 8px;
+    border-color: rgb(1, 22, 39);
+    background-color:lightgrey;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#example
+{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#Title
+{
+    text-align: center;
+}
+
+#intro 
+{
+    text-align: center;
+}
+
+#main
+{
+    background-color: rgb(160, 113, 120);
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+#gambino
+{
+    border-radius: 20px;
+    height: 600px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+/*Comments in CSS are writen like this one*/ 
