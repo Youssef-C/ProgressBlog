@@ -30,6 +30,20 @@ html
     flex: 45%; 
 }
 
+#twitterLogo
+{
+    height: auto;
+    max-width:280px;
+}
+
+#youtubeLogo
+{
+    height: auto;
+    max-width: 450px;
+    min-width: 20px;
+    margin:0px;
+} 
+
 .title
 {
     text-align: center;
@@ -44,6 +58,7 @@ a
 .refer
 {
     text-align: center;
+    font-size: 24px;
 }
 
 .contact
@@ -53,13 +68,16 @@ a
     margin:6px;
 }
 
-.contact:hover
-{
-    height: 35em;
-}
 .logo
 {
     height: auto;
     max-width: 35%;
-    margin: 8px; 
+    margin: 8px;
+    transition: 0.2s; 
+}
+
+.logo:hover
+{
+    transform: scale(1.09);
+
 }
