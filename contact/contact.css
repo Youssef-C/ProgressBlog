@@ -1,0 +1,65 @@
+html
+{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.flexContainer
+{
+    display: flex;
+    flex-flow: wrap;
+    margin: 4px;
+}
+
+#youtube
+{
+    flex: 45%; 
+}
+
+#twitter
+{
+    flex: 45%; 
+}
+
+#github
+{
+    flex: 45%; 
+}
+
+#email
+{
+    flex: 45%; 
+}
+
+.title
+{
+    text-align: center;
+    padding-top: 1px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.refer
+{
+    text-align: center;
+}
+
+.contact
+{
+    background-color: rgba(8, 146, 165,0.4);
+    text-align: center;
+    margin:6px;
+}
+
+.contact:hover
+{
+    height: 35em;
+}
+.logo
+{
+    height: auto;
+    max-width: 35%;
+    margin: 8px; 
+}
