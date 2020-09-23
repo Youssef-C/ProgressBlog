@@ -10,24 +10,49 @@ html
     margin: 4px;
 }
 
+#buttonDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+    border: none;
+    border-radius: 8px;
+    height: 26px;
+    background-color:rgb(171, 244, 255);
+    background-color: rgba(171, 244, 255,0.8);
+    font-size: 20px;
+    transition: 0.3s;
+    width: 120px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.button:hover
+{
+    background-color: rgba(171, 244, 255,1);
+}
+
 #youtube
 {
-    flex: 45%; 
+    flex: 35%; 
 }
 
 #twitter
 {
-    flex: 45%; 
+    flex: 35%; 
 }
 
 #github
 {
-    flex: 45%; 
+    flex: 35%; 
 }
 
 #email
 {
-    flex: 45%; 
+    flex: 35%; 
 }
 
 #twitterLogo
@@ -44,6 +69,14 @@ html
     margin:0px;
 } 
 
+#emailImg
+{
+    max-width: 35%;
+    margin: 8px;
+    transition: 0.2s; 
+}
+
+
 .title
 {
     text-align: center;
@@ -59,13 +92,23 @@ a
 {
     text-align: center;
     font-size: 24px;
+    background-color:rgb(171, 244, 255);
+    background-color: rgba(171, 244, 255,0.5);
+    padding: 3px;
+    margin-right: 400px;
+    transition: 0.4s;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .contact
 {
+    background-color:rgb(171, 244, 255);
     background-color: rgba(8, 146, 165,0.4);
     text-align: center;
     margin:6px;
+    border-left: 6px solid rgb(255,255,255);
+    border-left: 6px solid rgba(255,255,255,0.5);
+    border-radius: 8px;
 }
 
 .logo
@@ -76,8 +119,12 @@ a
     transition: 0.2s; 
 }
 
-.logo:hover
+.contact:hover .logo
 {
     transform: scale(1.09);
+}
 
+.contact:hover .refer
+{
+    margin-right:590px;
 }
