@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Contact me!</title>
+    <script src="contactInput.js"></script>
 
     <style>
         body {
@@ -27,27 +28,33 @@
         
 
         <div class="contact" id="youtube">
-            <a  href="https://www.youtube.com/channel/UCfLBQlgecSXaZ3HCD3oDdgQ?view_as=subscriber"> <p class="refer">Watch my content!</p>
+            <a target="_blank" href="https://www.youtube.com/channel/UCfLBQlgecSXaZ3HCD3oDdgQ?view_as=subscriber"> <p class="refer">Watch my content!</p>
             <img class="logo" id="youtubeLogo" src="/images/youtube.png" alt="A picture of the YouTube logo, a large red play button"> </a>
         </div>
 
         <div class="contact" id="twitter">
-            <a href="https://twitter.com/0bstinacy1"> <p class="refer"> Tweet at me! </p> 
+            <a target="_blank" href="https://twitter.com/0bstinacy1"> <p class="refer"> Tweet at me! </p> 
             <img class="logo" id="twitterLogo" src="/images/twitterLogo.png" alt="The twitter logo, a large blue square with a white cutout of a bird"> </a> 
         </div>
 
         <div class="contact" id="email">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1"> <p class="refer">Email me: <br> youssef.chardi@hotmail.com </p>
+            <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1"> <p class="refer">Email me: <br> youssef.chardi@hotmail.com </p>
             <img class="logo" id="emailImg" src="/images/email.png" alt="Logo symbolizing a letter and/or email"> </a>
             
         </div>
         <div class="contact" id="github">
-            <a href="https://github.com/Youssef-C"> <p class="refer">See my work on github!</p>
+            <a target="_blank" href="https://github.com/Youssef-C"> <p class="refer">See my work on github!</p>
             <img class="logo" src="/images/github.png" alt="The github logo, a cat-like creature holdind out it's hand"></a>
         </div>
             
         <div class="contact" id="notification">
             <p id="notifHead">Do you want to be notified when I post to my blog?</p>
+
+            <form action="" id="contactForm">
+                <label for="mail">Please enter your name and Email address below!</label>
+                <input type="email" id="mail" name="mail">
+                <button>Submit</button>
+            </form>
         </div>
     </div>
 

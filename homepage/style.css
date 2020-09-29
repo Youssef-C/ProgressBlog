@@ -19,6 +19,12 @@ p
     flex-flow: wrap;
 }
 
+#message
+{
+    color: red;
+}
+
+
 
 .entryDiv
 {
