@@ -55,6 +55,23 @@ html
     flex: 35%; 
 }
 
+#notification
+{
+    flex: 50%;
+}
+
+#notifHead
+{
+    text-align: center;
+    font-size: 24px;
+    background-color:rgb(171, 244, 255);
+    background-color: rgba(171, 244, 255,0.5);
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 6px;
+    padding: 4px;
+}
+
 #twitterLogo
 {
     height: auto;
