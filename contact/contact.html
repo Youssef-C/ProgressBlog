@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,8 +23,9 @@
     </div>
 
     <div id="buttonDiv">
-        <button class="button"> <a href="/homepage/index.html">Home</a></button>
+        <a id="homeButton" href="/homepage/index.html">Home</a>
     </div>
+
     <div class="flexContainer">
         
 
@@ -50,10 +52,12 @@
         <div class="contact" id="notification">
             <p id="notifHead">Do you want to be notified when I post to my blog?</p>
 
-            <form action="" id="contactForm">
-                <label for="mail">Please enter your name and Email address below!</label>
+            <form id="contactForm">
+                <label for="mail" id="formLabel">Please enter your name and Email address below!</label>
+                <br>
                 <input type="email" id="mail" name="mail">
-                <button>Submit</button>
+                <br>
+                <button id="submitButton">Submit</button>
             </form>
         </div>
     </div>
